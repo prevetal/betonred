@@ -1,0 +1,284 @@
+@media print,
+(max-width: 1023px)
+{
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 24px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp .btn
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .buttonUp .btn svg
+    {
+        width: 26px;
+        height: 26px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 80vw 0 70px;
+    }
+
+
+    .first_section .image
+    {
+        width: calc(100% - 32px);
+    }
+
+
+    .first_section .free_spins
+    {
+        font-size: 18px;
+
+        margin-bottom: 17px;
+    }
+
+
+    .first_section .welcome_pack
+    {
+        background: #1d1f24;
+    }
+
+
+
+    /*-----------
+        Games
+    -----------*/
+    .games .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 32px);
+        margin: 0 -16px;
+        padding: 0 16px 20px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 16px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .games .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .games .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .games .row > *
+    {
+        display: inline-block;
+
+        width: 134px;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .games .row > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*---------------
+        Providers
+    ---------------*/
+    .providers
+    {
+        padding: 20px 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding-top: 30px;
+    }
+
+
+    .about_info .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 32px);
+        margin: 0 -16px;
+        padding: 0 16px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 16px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .about_info .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .about_info .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .about_info .row > *
+    {
+        display: inline-block;
+
+        width: 140px;
+        margin: 0;
+        padding-bottom: 140px;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .about_info .row > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+    .about_info .item .name
+    {
+        font-size: 12px;
+
+        padding: 10px 16px;
+    }
+
+
+
+    /*-----------
+        Offer
+    -----------*/
+    .offer
+    {
+        height: 428px;
+    }
+
+
+    .offer .prize
+    {
+        font-size: 32px;
+
+        top: 152px;
+    }
+
+
+    .offer .link
+    {
+        bottom: 55px;
+    }
+
+
+
+    /*-------------
+        Support
+    ------------*/
+    .support .row
+    {
+        margin-bottom: -8px;
+        margin-left: 0;
+    }
+
+    .support .row > *
+    {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+
+
+    .support .item
+    {
+        padding: 12px 16px;
+    }
+
+
+    .support .item .name
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .support .item .desc
+    {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+
+    /*---------
+        App
+    ---------*/
+    .app .data
+    {
+        padding: 32px 40px;
+    }
+
+
+    .app .img
+    {
+        right: 40px;
+        left: auto;
+    }
+}

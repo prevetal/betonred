@@ -1,0 +1,68 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .image
+    {
+        width: 1152px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 23px;
+    }
+
+
+    .first_section .price
+    {
+        font-size: 50px;
+    }
+
+
+
+    /*-----------
+        Offer
+    -----------*/
+    .offer
+    {
+        height: 620px;
+    }
+
+
+    .offer .prize
+    {
+        font-size: 48px;
+
+        top: 237px;
+    }
+
+
+    .offer .link
+    {
+        bottom: 105px;
+    }
+}

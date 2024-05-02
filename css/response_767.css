@@ -1,0 +1,135 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        box-shadow: none;
+    }
+
+
+    header .cont
+    {
+        min-height: 54px;
+    }
+
+
+    header .links
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .image,
+    .first_section .welcome_pack
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Ppayments
+    ---------------*/
+    .payments .row > * + *
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*-----------
+        Games
+    -----------*/
+    .games .row
+    {
+        padding-bottom: 10px;
+    }
+
+
+
+    /*---------------
+        Providers
+    ---------------*/
+    .providers .row > * + *
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding-bottom: 30px;
+    }
+
+
+    .about_info .row > *
+    {
+        width: 132px;
+        padding-bottom: 132px;
+    }
+
+
+
+    /*---------
+        App
+    ---------*/
+    .app
+    {
+        margin: 40px 0;
+    }
+
+
+    .app .data
+    {
+        padding: 24px 24px 0;
+    }
+
+
+    .app .title
+    {
+        text-align: center;
+    }
+
+
+    .app .desc
+    {
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+
+
+    .app .link
+    {
+        width: 100%;
+    }
+
+
+    .app .img
+    {
+        position: relative;
+        right: 0;
+
+        margin-top: 32px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
